@@ -1,0 +1,10 @@
+spring:
+  mvc:
+    view:
+      prefix: /views/
+      suffix: .jsp
+    static-path-pattern: /static/**
+  thymeleaf:
+    cache: false
+server:
+  port: 2019
